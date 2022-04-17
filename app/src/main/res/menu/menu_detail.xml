@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.agungfir.jetpackcinema.ui.detail.DetailActivity">
+    <item
+        android:id="@+id/action_favorite"
+        android:icon="@drawable/ic_favorite_pink"
+        android:orderInCategory="100"
+        android:title="@string/favorite"
+        app:iconTint="@color/white"
+        app:showAsAction="always"
+        tools:targetApi="o" />
+</menu>
